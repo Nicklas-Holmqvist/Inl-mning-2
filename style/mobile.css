@@ -1,0 +1,185 @@
+﻿@media (max-width: 35em) {
+
+.mobile {
+    display: grid;
+}
+
+.no-mobile {
+    display: none;
+}
+
+header {
+    position: fixed;
+    background-color: #eeededBD;
+
+    border-bottom: none;
+    border-top: 3px #DFAB3D solid;
+    border-bottom: 4px #DFAB3D solid;
+}
+
+.logo {
+    justify-self: center;
+    align-items: center;
+}
+
+.hero-section {
+    height: 50rem;    
+}
+
+.hero-text {
+    padding: 3.5rem 3.5rem 2rem 3.5rem;
+}
+
+.hero-btn {
+    padding: .8rem;
+}
+
+/* Menu section */
+
+.menu-container {
+    padding-top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0rem;
+}
+
+.meny-rubrik {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.menu-sektion h3 {
+    padding-left: 1rem;
+    padding-bottom: 0;
+}
+
+/*  */
+
+/* opinion section */
+
+/*  */
+
+.rec-section {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.rec-section img {
+    padding-bottom: 2rem;
+}
+
+.image-gallery {
+    grid-template-columns: repeat(1, 1fr);
+
+    border-top: 2px #DFAB3D solid;
+
+    padding-bottom: 6.5rem;
+
+    background-color: #eeeded;
+}
+
+.image-items {
+    padding-bottom: .2rem;
+
+}
+
+/* Opening times and call button */
+
+.open-time {
+    position: fixed;
+    bottom: 3.4rem;
+    right: 0;
+    left: 0;
+
+    background-color: #5E1810;
+
+    border-top: 4px #DFAB3D solid;
+}
+
+.time-btn {
+
+    margin-bottom: -9.9rem;
+
+    background-color: #5E1810;
+    width: 100%;
+    text-align: center;    
+
+}
+
+.time-btn span {
+    color: #eeeded;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.time-btn {
+
+    padding: 1rem;
+    
+    border: none;
+
+    outline: none;
+    
+}
+
+.open-text {
+    padding: 1rem 1rem
+}
+
+.open-text p {
+    color: #eeeded;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+}
+
+.find-text p, a {
+    color: #eeeded;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+}
+
+.find-text a {
+    color: #DFAB3D;
+}
+
+.find-text a:hover {
+    color: #eeeded;
+}
+
+
+.time-btn:focus {
+    animation: 10s slide-in ease-in;    
+}
+
+.call-btn {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #DFAB3D;
+
+    border-top: 4px #eeeded solid;
+    border-bottom: 4px #eeeded solid;
+
+    transition: all .3s ease-in-out;
+}
+
+.call-btn p{
+    color: #5E1810;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+.call-btn:hover {
+    background-color: #eeeded;
+
+    border-top: 4px #DFAB3D solid;
+    border-bottom: 4px #DFAB3D solid;
+}
+
+}

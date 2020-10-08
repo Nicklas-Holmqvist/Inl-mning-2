@@ -1,0 +1,15 @@
+﻿@media (max-width: 75em) {
+
+    .header-container {
+        padding: 0 1rem;
+    }
+
+    nav ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menu-container {
+        justify-content: center;
+    }
+
+}

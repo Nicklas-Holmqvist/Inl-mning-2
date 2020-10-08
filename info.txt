@@ -1,0 +1,108 @@
+Grupparbete inlämning 2
+Medlemmar:
+Nicklas Holmqvist
+Olof Wallgren
+
+Hemsidan vi gör om:
+https://www.ethels.se/
+
+Det är ett café med lite av varje i Göteborg.
+
+Sidan har 3 stycken brytpunkter, men den vid 1200px är en mindre justering med header och logga.
+Den vanliga headern byts till hamburgare vid 768px.
+
+Den nya sidan:
+
+Vi uteslöt video, karta och formuläret från landningssidan. Annars förbättrat alla punkter.
+
+Det är knappen "Boka bord" på hero bilden som är aktiv till den andra html-sidan.
+
+Breakpoints på sidan:
+
+75em - tablet
+35em - mobile
+21em -iPhone 5se
+
+Layout och funktioner:
+Grid, hover och animationer
+
+Färger:
+Vi har valt ut färger efter en av deras interiörbilder.
+Färgerna går som en röd tråd igenom hela sidan.
+
+Sidan består av två .html-filer och sex css-filer, 5 med css och en med keyframes.
+
+Html:
+- index
+- boka
+
+Css, fallande ordning i rang
+- style
+- boka
+- tablet
+- mobile
+- xs-mobile
+- animation
+
+Standard fonts and colors:
+
+Fonts:
+- 'Dancing Script', cursive;
+- 'Bitter', serif;
+
+Colors: 
+- #CEC2C6
+- #DFAB3D
+- #FFFEFE
+- #5E1810
+
+landningsida uppbyggnad.
+
+Header:
+En fixed top-bar med opacity.
+I desktop visas logga, meny och sociala ikoner.
+Meny knappen är en id-link inom sidan som tar dig till meny-delen.
+I mobilvy visas en "hamburger" och loggan.
+
+Hero:
+En bakgrundsbild där används en fast höjd.
+Knappen går till boka.html.
+
+Meny:
+Mat-menyn är uppbyggd med grid."autofill"och visas i 2 st columner på desktop 
+kolappsar sedan till en column i mobil.
+
+Omdömme:
+En animerad visning som styrs med opacity,tre omdömmen som repeteras "infinity"
+
+Rekomendationer:
+Består av tre st loggor kolappsar till en på mobilvy.
+
+Instagramflöde:
+består av fem st bilder som kolappsar till en i mobilvy
+
+Footer:
+Footern består av tre fält,"adress" "öppetider" "kontakta" och en knapp med en id-link inom sidan som tar dig till toppen.
+I mobilvy ersätts footer av två st knappar,"öppetider/hitta" och "ring oss".
+
+Kontakt-spage uppbyggnad.
+
+Header - samma som landningsida
+
+Kontakta formulär
+- Header med logga
+- För- och efternamn
+- E-postadress
+- Telefonnummer
+- Önskat datum
+- Önskad tid
+- Antal personer
+- Radio-knappar 2st
+- Textarea fält med "Övriga önskemål"
+- Skicka knapp
+
+Omdömen - samma som landningsida
+
+Rekommendation - samma som landningsida
+
+Footer - samma som landningsida
